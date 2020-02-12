@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>View Cart</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style/style.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body class="text-center">
+    <div class="container fixed-top">
+        <ul class="list-unstyled float-right">
+            <a href="catalogue.html" target="_blank">
+                <li class="list-inline-item pl-2 text-primary">Store</li>
+            </a>
+            <a href="login.html" target="_blank">
+                <li class="list-inline-item pl-2 text-primary">Login</li>
+            </a>
+            <a href="homepage.html" target="_blank">
+                <li class="list-inline-item pl-2 text-primary">Homepage</li>
+            </a>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <h1>Your Cart</h1>
+    <!--Displays the items in the itemCart array-->
+    <button onclick="showCart()" class="btn text-white bg-primary mt-4 mb-2 p-2">Show Cart</button>
+    <div id="items"></div>
+    <br>
+    <!--Displays the total amount-->
+    <button onclick="showTotal()" class="btn text-white bg-primary mt-4 mb-2 p-2">Show Total</button>
+    <div id="totalAmount"></div>
+    <br>
+    <!--on click, an alert goes off confirming the order and a reference number is talking-->
+    <button id="con" onclick="confirm()" class="btn text-white bg-primary mt-4 mb-2 p-2">Confirm order</button>
+    <br>
+    <!--the following image and div will only be displayed after the confirm button is -->
+    <img id="ty" src="images/animemascot.png" class="mt-5">
+    <div id="thanks" class="mt-4">Thank you for your purchase</div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

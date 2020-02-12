@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>View Product</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style/style.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body class="text-center">
+    <div class="container fixed-top">
+        <ul class="list-unstyled float-right">
+            <a href="login.html" target="_blank">
+                <li class="list-inline-item pl-2 text-primary">Login</li>
+            </a>
+            <a href="homepage.html" target="_blank">
+                <li class="list-inline-item pl-2 text-primary">Homepage</li>
+            </a>
+            <a href="catalogue.html" target="_blank">
+                <li class="list-inline-item pl-2 text-primary">Store</li>
+            </a>
+            <li class="list-inline-item pl-2 text-primary"><span>Cart: </span><span id="cartMob"></span></li>
+        </ul>
+    </div>
+    <br>
+    <h1 id="productName">Mob T-shirt</h1>
+    <img id="mobImg" src="images/mob.jpg">
+    <br>
+    <button id="addMob" class="btn text-white bg-primary mt-2 mb-2 p-2">Add to cart</button>
+    <p>Price: R220</p>
+    <form>
+        <div>
+            <label class="font-weight-bold" for="product">Enter Coupon code: </label>
+            <input type="text" id="code" class="text-dark">
+        </div>
+    </form>
+    <div>
+        <button id="useCode" class="btn card mx-auto text-white bg-primary m-3 p-2">Use Code</button>
+    </div>
+    <br>
+    <form>
+        <div>
+            <div>
+                <label class="font-weight-bold">Choose Collection or Delivery: </label>
+            </div>
+            <div>
+                <label class="font-weight-bold" for="collection">Collection</label>
+                <input type="radio" id="collection" class="text-dark">
+            </div>
+            <div>
+                <label class="font-weight-bold" for="deliver">Delivery</label>
+                <input type="radio" id="deliver" class="text-dark">
+            </div>
+        </div>
+        <div>
+            <br>
+            <div id="deliveryForm">
+                <form>
+                    <div>
+                        <label class="font-weight-bold">Choose a delivery method:</label>
+                        <div>
+                            <label class="font-weight-bold" for="economy">Economy Free</label>
+                            <input type="radio" id="economy" class="text-dark">
+                        </div>
+                        <div>
+                            <label class="font-weight-bold" for="standard">Standard R100</label>
+                            <input type="radio" id="standard" class="text-dark">
+                        </div>
+                        <div>
+                            <label class="font-weight-bold" for="priority">Priority R150</label>
+                            <input type="radio" id="priority" class="text-dark">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <button onclick="buy()" class="btn text-white bg-primary mt-4 mb-4 p-2">Confirm order</button>
+            <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

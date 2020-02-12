@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shipping Details</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style/style.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <div class="container fixed-top">
+        <ul class="list-unstyled float-right">
+            <a href="login.html" target="_blank">
+                <li class="list-inline-item pl-2 text-primary">Login</li>
+            </a>
+            <a href="catalogue.html" target="_blank">
+                <li class="list-inline-item pl-2 text-primary">Store</li>
+            </a>
+            <a href="homepage.html" target="_blank">
+                <li class="list-inline-item pl-2 text-primary">Homepage</li>
+            </a>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <h1 class="text-center">Shipping Info</h1>
+    <br>
+    <br>
+    <div class="container text-center">
+        <h3>When will you get your package?</h3>
+        <br>
+        <table class="table table-dark table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Price</th>
+                    <th>Timing</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Economy</td>
+                    <td>Free</td>
+                    <td>3 days after dispatch</td>
+                </tr>
+                <tr>
+                    <td>Standard</td>
+                    <td>R100</td>
+                    <td>1 day after dispatch</td>
+                </tr>
+                <tr>
+                    <td>Priority</td>
+                    <td>R150</td>
+                    <td>On day of dispatch</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="text-center mt-5">
+        <h3>Rather Collect? Here's Where You Can Collect:</h3>
+    </div>
+    <div class="text-center">
+        <button id="btnLocation" class="btn text-white bg-primary mb-2 p-2">Show Locations</button>
+    </div>
+    <!--Dropdown menu of locations of where to collect-->
+    <div id="location" class="text-center">
+        <p>Location 1</p>
+        <p>Location 2</p>
+        <p>Location 3</p>
+        <p>Location 4</p>
+    </div>
+</body>
+
+</html>

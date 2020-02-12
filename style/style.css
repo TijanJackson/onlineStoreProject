@@ -1,0 +1,159 @@
+* {
+    color: rgb(243, 243, 243);
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(83, 83, 83);
+}
+
+.tempHide {
+    visibility: hidden;
+}
+
+/*pseudo class for revealing more info*/
+
+#showOne:hover .tempHide{
+    visibility: visible;
+    background-color: rgb(71, 71, 71);
+}
+
+
+#showTwo:hover .tempHide{
+    visibility: visible;
+    background-color: rgb(71, 71, 71);
+}
+
+#showThree:hover .tempHide{
+    visibility: visible;
+    background-color: rgb(71, 71, 71);
+}
+
+#showFour:hover .tempHide{
+    visibility: visible;
+    background-color: rgb(71, 71, 71);
+}
+
+#showFive:hover .tempHide{
+    visibility: visible;
+    background-color: rgb(71, 71, 71);
+}
+
+/*Enlarge image upon hover*/
+
+/* #imgOne:hover {
+    position: absolute;
+    width: 600px;
+    height: 250px;
+}
+
+#imgTwo:hover {
+    position: absolute;
+    width: 600px;
+    height: 250px;
+}
+
+#imgThree:hover {
+    position: absolute;
+    width: 600px;
+    height: 250px;
+}
+
+#imgFour:hover {
+    position: absolute;
+    width: 600px;
+    height: 250px;
+}
+
+#imgFive:hover {
+    position: absolute;
+    width: 600px;
+    height: 250px;
+} */
+
+
+/*Font changes*/
+.review {
+    font-family: 'Times New Roman';
+}
+
+h5 {
+    font-family: Arial;
+}
+
+h3 {
+    font-family: Helvetica;
+}
+
+/*Image filters*/
+#mascot {
+    filter: grayscale(85%);
+}
+
+.storeImage {
+    filter: contrast(125%);
+}
+
+/*Background color cycle*/
+
+.colorCycle {
+    animation: animate 15s ease infinite;
+}
+
+@keyframes animate {
+    0%{
+        background-color: darkslategrey;
+    }
+
+    20%{
+        background-color: darkblue;
+    }
+
+    40%{
+        background-color: darkslateblue;
+    }
+
+    60%{
+        background-color: darkmagenta
+    }
+
+    80%{
+        background-color: maroon;
+    }
+    
+    100%{
+        background-color: darkslategrey;
+    }
+
+}
+
+#konosubaImg {
+    width: 200px;
+    height: 200px;
+}
+
+#mobImg {
+    width: 200px;
+    height: 200px;
+}
+
+#rezeroImg {
+    width: 200px;
+    height: 200px;
+}
+
+#soraImg {
+    width: 200px;
+    height: 200px;
+}
+
+#opmImg {
+    width: 200px;
+    height: 200px;
+}
+
+#ty {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+}
