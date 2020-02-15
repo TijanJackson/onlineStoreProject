@@ -14,8 +14,34 @@
 
 ## Usage
 
-**Navigate to the catalogue**
+### Access the webpage with webpage.html
 ![shot1](https://user-images.githubusercontent.com/57716770/74590859-1da65300-501b-11ea-81e5-1fff0d6e7577.png) 
+
+### Naviagate to the catalogue
+![shot2](https://user-images.githubusercontent.com/57716770/74590906-9e654f00-501b-11ea-9521-23e7bf610418.png)
+
+### Click the Add to cart button, which causes two alerts to go and the cart label increases by one
+![shot3](https://user-images.githubusercontent.com/57716770/74590922-c8b70c80-501b-11ea-8e8d-e363ded3207e.png)
+
+### Alert 2
+![shot4](https://user-images.githubusercontent.com/57716770/74590927-da98af80-501b-11ea-9639-ebe5a19b74f1.png)
+
+### Cart counter increases
+![shot5](https://user-images.githubusercontent.com/57716770/74590965-36fbcf00-501c-11ea-92a1-1d94196566a8.png)
+
+### Click the view cart button
+![shot6](https://user-images.githubusercontent.com/57716770/74591012-b7223480-501c-11ea-9bed-664557b7d833.png)
+
+### Viewing the Cart page
+![shot7](https://user-images.githubusercontent.com/57716770/74591018-cb663180-501c-11ea-9c21-8c166a7a18b2.png)
+
+### Click the Show Items button to display items in cart
+![shot8](https://user-images.githubusercontent.com/57716770/74591195-6f041180-501e-11ea-8acd-e5091571969d.png)
+
+### Click the Show Total button to display the total of the cart
+
+### Click the Confirm Order button for an alert to go off with a generated reference number and an animation
+
 
 **Explore the functionality on the catalogue page and the cart page**
 **Then check out the individual cart pages by clicking on the item's images**
