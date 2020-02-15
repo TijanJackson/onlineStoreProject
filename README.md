@@ -15,7 +15,7 @@
 ## Usage
 
 **Navigate to the catalogue**
-![shot1](https://user-images.githubusercontent.com/57716770/74590859-1da65300-501b-11ea-81e5-1fff0d6e7577.png)
+![shot1](https://user-images.githubusercontent.com/57716770/74590859-1da65300-501b-11ea-81e5-1fff0d6e7577.png) 
 
 **Explore the functionality on the catalogue page and the cart page**
 **Then check out the individual cart pages by clicking on the item's images**
