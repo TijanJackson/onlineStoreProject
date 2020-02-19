@@ -17,7 +17,7 @@
 
 ## Usage
 
-### Access the webpage with webpage.html
+### Access the webpage with homepage.html
 ![shot1](https://user-images.githubusercontent.com/57716770/74590859-1da65300-501b-11ea-81e5-1fff0d6e7577.png) 
 
 ### Navigate to the catalogue
