@@ -3,7 +3,7 @@
 *A fake online store that sells anime related merchandise.*
 *Build with html, css and bootstrap, and javascript and jQuery.*
 
-* [Download](#down)
+* [Download](#download)
 * [Usage](#usage)
 
 ## Download
