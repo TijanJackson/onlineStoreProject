@@ -1,6 +1,7 @@
 # onlineStoreProject
 
 *A fake online store that sells anime related merchandise.*
+
 *Built with html, css and bootstrap, and javascript and jQuery.*
 
 * [Download](#download)
