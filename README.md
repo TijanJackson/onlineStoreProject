@@ -8,9 +8,11 @@
 
 ## Download
 
-**Click the clone or download button**
-**Download the zip file**
-**Launch the homepage.html file and navigate to each respective page with the top nav bar**
+**Click the clone or download button**  
+
+**Download the zip file**  
+
+**Launch the homepage.html file and navigate to each respective page with the top nav bar**  
 
 ## Usage
 
