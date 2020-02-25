@@ -11,7 +11,7 @@
 
 **Click the clone or download button**  
 
-**Download the zip file**  
+**Download the zip file and decompress it**  
 
 **Launch the homepage.html file and navigate to each respective page with the top nav bar**  
 
